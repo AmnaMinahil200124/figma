@@ -1,0 +1,133 @@
+/* Navbar */
+
+.navbar-custom {
+  background-color: #043873;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white !important;
+}
+
+
+.navbar-custom .nav-link:hover {
+  color: #f0f0f0 !important;
+}
+
+.navbar-custom .dropdown-menu {
+  background-color: #043873;
+}
+
+.navbar-custom .dropdown-item {
+  color: white !important;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #011833;
+}
+.navbar-custom .navbar-toggler {
+  border-color: white;
+  color: white;
+
+}
+.navbar-custom .navbar-toggler .navbar-toggler-icon {
+  color: white;
+
+}
+
+
+.navbar-buttons .btn {
+  padding: 4px 15px;
+  font-weight: 500;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.navbar-buttons .btn-login {
+  background: #FFE492;
+  border: none;
+  color: #043873;
+}
+
+.navbar-buttons .btn-login:hover {
+  background: #fad976;
+}
+
+.navbar-buttons .btn-try {
+  background: #4F9CF9;
+  border: none;
+  color: white;
+}
+
+.navbar-buttons .btn-try:hover {
+  background: #0084b4;
+
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("images/background1.png");
+  background-color: #043873; 
+  min-height: 90vh;
+  color: white;
+  padding: 60px 0;
+}
+
+
+.hero-text h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #dcdcdc;
+}
+ .btn-free {
+  background: #4F9CF9;
+  border: none;
+  color: white;
+}
+
+.btn-free:hover {
+  background: #0084b4;
+
+}
+
+.hero-img img {
+  max-width: 100%;
+}
+
+.bg-text-section {
+  background: url("images/BACKGROUND.png") no-repeat left center;
+  background-size: contain;  
+  padding: 120px;
+  margin: 0;
+
+}
+
+.bg-text-section h2 {
+  font-size: 3.2rem;
+    font-weight: bold;
+  color: #212529 !important;
+}
+
+.bg-text-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+.bg-text-section .btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.feature-img {
+  max-width: 90%;
+  
+}
+
