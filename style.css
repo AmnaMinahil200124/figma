@@ -1,10 +1,19 @@
+body {
+  overflow-x: hidden;
+}
+
+.logo img {
+  height: 1.79rem;
+}
+
 /* Navbar */
 
 .navbar-custom {
   background-color: #043873;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
 }
+
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
   color: white !important;
@@ -26,11 +35,13 @@
 .navbar-custom .dropdown-item:hover {
   background-color: #011833;
 }
+
 .navbar-custom .navbar-toggler {
   border-color: white;
   color: white;
 
 }
+
 .navbar-custom .navbar-toggler .navbar-toggler-icon {
   color: white;
 
@@ -48,6 +59,7 @@
   background: #FFE492;
   border: none;
   color: #043873;
+  font-weight: 400;
 }
 
 .navbar-buttons .btn-login:hover {
@@ -58,6 +70,7 @@
   background: #4F9CF9;
   border: none;
   color: white;
+  font-weight: 300;
 }
 
 .navbar-buttons .btn-try:hover {
@@ -67,8 +80,8 @@
 
 /* Hero Section */
 .hero {
-    background-image: url("images/background1.png");
-  background-color: #043873; 
+  background-image: url("images/background1.png");
+  background-color: #043873;
   min-height: 90vh;
   color: white;
   padding: 60px 0;
@@ -82,13 +95,15 @@
 
 .hero-text p {
   margin: 20px 0;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #dcdcdc;
 }
- .btn-free {
+
+.btn-free {
   background: #4F9CF9;
   border: none;
   color: white;
+  font-weight: 300;
 }
 
 .btn-free:hover {
@@ -100,34 +115,414 @@
   max-width: 100%;
 }
 
-.bg-text-section {
-  background: url("images/BACKGROUND.png") no-repeat left center;
-  background-size: contain;  
-  padding: 120px;
-  margin: 0;
 
+.bg {
+  background-image: url("images/BACKGROUND.png");
+  background-repeat: no-repeat;
+  background-position: left 130px;
+  min-height: 70vh;
+  color: white;
+  padding: 80px 5px;
 }
 
-.bg-text-section h2 {
-  font-size: 3.2rem;
-    font-weight: bold;
+
+.bg-text h1 {
+  font-size: 3.9rem;
+  font-weight: bold;
   color: #212529 !important;
 }
+.element1{
+  height: 4rem;
+}
 
-.bg-text-section p {
+.bg-text p {
   font-size: 1rem;
   line-height: 1.6;
   color: black !important;
 }
 
-.bg-text-section .btn {
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-weight: 500;
+.btn-free {
+  background: #4F9CF9;
+  border: none;
+  color: white;
+  font-weight: 300;
 }
 
-.feature-img {
-  max-width: 90%;
-  
+.btn-free:hover {
+  background: #0084b4;
+
 }
+
+.bg-img img {
+  max-width: 100%;
+}
+
+.work-together h2 {
+  margin-bottom: 1px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+
+.work-together p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black;
+}
+
+.work-together .btn {
+  background-color: #4F9CF9;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+.element2 {
+  height: 2rem;
+}
+
+.work-img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.Extention {
+  background-color: #043873;
+  min-height: 90vh;
+  color: white;
+  padding: 70px 0;
+}
+
+
+.Extention-text h1 {
+  margin-bottom: 1px;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.Extention-text p {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+.Extention-img img {
+  max-width: 90%;
+}
+
+.element3 {
+  height: 2.5rem;
+}
+
+.needs-section {
+  padding: 45px;
+}
+
+.needs-section h2 {
+  margin-bottom: 1px;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+
+.needs-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+.needs-section .btn {
+  background-color: #4F9CF9;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+.element4 {
+  height: 2.5rem;
+}
+.customise-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 9px;
+}
+/* Plans Section */
+.plans-section {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.plans-section .section-title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+.plans-section .element1 {
+  margin: 0 0 0 120px;
+  height: 2.5rem;
+}
+
+.plans-section .section-subtitle {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+  padding: 30px 120px;
+}
+
+.plan-card {
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.plan-card .plan-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.plan-card .plan-price {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.plan-features li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.plan-features1 li{
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 100;
+}
+
+.btn-mid {
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+
+.plan-card .btn-skin {
+  background-color: white;
+  border: 1px solid #FFE492;
+}
+
+.plan-card.featured {
+  background-color: #043873;
+  color: white;
+  transform: scale(1.15);
+}
+
+.plan-card.featured .plan-price {
+  color: #FFE492;
+}
+
+
+/* Work Section */
+.work-section {
+  background-color: #043873 !important;
+  background: url("images/BACKGROUND2.png") no-repeat center top;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 25.5%;
+  min-height: 76vh;
+  color: white;
+}
+
+.work-section h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.work-section .element-under {
+  display: block;
+  margin: 10px auto 30px auto;
+  max-width: 200px;
+}
+
+.work-section p {
+  font-size: 0.97rem;
+  line-height: 1.6;
+  margin: 0 auto 20px auto;
+}
+
+.work-section .btn {
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: #4F9CF9;
+  color: white;
+  border: none;
+}
+.data {
+   min-height:85vh;
+  color: white;
+}
+
+.data-text h1 {
+  margin-bottom: 1px;
+  font-size: 3.9rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+.data-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+.btn-free {
+  background: #4F9CF9;
+  border: none;
+  color: white;
+  font-weight: 300;
+}
+
+.btn-free:hover {
+  background: #0084b4;
+
+}
+
+.data-img img {
+  max-width: 100%;
+}
+
+.sponsors-section h2 {
+  font-size: 3.9rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+.element-sponsors{
+ height: 2.6rem;
+ margin-left: 5px;
+}
+
+.sponsor-logo {
+  max-height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  transform: scale(1.1);
+}
+
+/* favorite Section */
+.favorite {
+  background-image: url("images/vector.png");
+    background-repeat: no-repeat;
+  background-color: #043873;
+  background-position: center 120px;
+  background-size: 100%;
+  min-height: 110vh;
+  color: white;
+  padding: 60px 0;
+}
+
+
+.favorite-text h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.favorite-text p {
+  margin: 20px 0;
+  font-size: 0.95rem;
+  color: #dcdcdc;
+}
+
+.btn-free {
+  background: #4F9CF9;
+  border: none;
+  color: white;
+  font-weight: 300;
+}
+
+.btn-free:hover {
+  background: #0084b4;
+
+}
+
+.favorite-img img {
+  max-width: 100%;
+}
+
+.testimonial-heading{
+  margin-bottom: 1px;
+  font-size: 3.9rem;
+  font-weight: bold;
+  color: #212529 !important;
+}
+
+.testimonial-card-white{
+  min-height: 350px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+.testimonial-card-white:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card-blue{
+  
+  min-height: 350px;
+  border-radius: 12px;
+  background: #4F9CF9;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+.testimonial-card-blue:hover {
+  transform: translateY(-5px);
+}
+.testimonial-card-blue h6{
+ color: #043873;
+ font-size: 1.2rem;
+}
+.testimonial-card-white h6{
+ font-size: 1.2rem;
+}
+.quote-icon {
+  width: 60px;
+  height: auto;
+}
+.testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.client-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background: #4F9CF9;
+}
+.dot.active {
+  background: #043873;
+}
+
 
