@@ -453,13 +453,14 @@ background-size: 24%;
   border: none;
 }
 .data {
-   min-height:85vh;
+  margin-top: 6.5rem;
+   min-height:70vh;
   color: white;
 }
 .data-heading {
   position: relative;
   display: inline-block;
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: bold;
   color: #212529;
 }
@@ -477,7 +478,7 @@ background-size: 24%;
   z-index: -1;
 }
 .data-text p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   color: #212529;
 }
@@ -501,7 +502,7 @@ background-size: 24%;
 .sponsers-heading {
   position: relative;
   display: inline-block;
-  font-size: 3.9rem;
+  font-size: 3.2rem;
   font-weight: bold;
   color: #212529;
 }
@@ -533,9 +534,9 @@ background-size: 24%;
   background-image: url("images/vector.png");
     background-repeat: no-repeat;
   background-color: #043873;
-  background-position: center 120px;
+  background-position: center 35px;
   background-size: 100%;
-  min-height: 110vh;
+  min-height: 87vh;
   color: white;
   padding: 60px 0;
 }
